@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Assistant - Results</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interview Questions and Answers</h1>
+        <div class="results">
+            <% result.forEach(function(item) { %>
+                <div class="result-item">
+                    <p><%= item %></p>
+                </div>
+            <% }); %>
+        </div>
+    </div>
+</body>
+</html>
